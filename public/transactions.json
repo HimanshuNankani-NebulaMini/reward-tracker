@@ -1,0 +1,4034 @@
+[
+  {
+    "id": "TX-1001",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-28",
+    "product": "Desk Mat",
+    "price": 27.16
+  },
+  {
+    "id": "TX-1002",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-28",
+    "product": "DisplayPort Cable",
+    "price": 23.41
+  },
+  {
+    "id": "TX-1003",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-28",
+    "product": "Dual Monitor Mount",
+    "price": 81.54
+  },
+  {
+    "id": "TX-1004",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-28",
+    "product": "Portable SSD",
+    "price": 157.07
+  },
+  {
+    "id": "TX-1005",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-28",
+    "product": "Bluetooth Adapter",
+    "price": 23.47
+  },
+  {
+    "id": "TX-1006",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-27",
+    "product": "Wireless Headphones",
+    "price": 63.56
+  },
+  {
+    "id": "TX-1007",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-26",
+    "product": "Wireless Headphones",
+    "price": 168.47
+  },
+  {
+    "id": "TX-1008",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-26",
+    "product": "Web Camera",
+    "price": 69.41
+  },
+  {
+    "id": "TX-1009",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-26",
+    "product": "Web Camera",
+    "price": 84.62
+  },
+  {
+    "id": "TX-1010",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-26",
+    "product": "Desk Mat",
+    "price": 21.8
+  },
+  {
+    "id": "TX-1011",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-26",
+    "product": "Wireless Headphones",
+    "price": 116.29
+  },
+  {
+    "id": "TX-1012",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-26",
+    "product": "Dual Monitor Mount",
+    "price": 63.82
+  },
+  {
+    "id": "TX-1013",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-26",
+    "product": "Portable SSD",
+    "price": 150.06
+  },
+  {
+    "id": "TX-1014",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-25",
+    "product": "Desk Mat",
+    "price": 36.66
+  },
+  {
+    "id": "TX-1015",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-25",
+    "product": "Laptop Cooling Pad",
+    "price": 47.02
+  },
+  {
+    "id": "TX-1016",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-25",
+    "product": "Laptop Cooling Pad",
+    "price": 35.97
+  },
+  {
+    "id": "TX-1017",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-24",
+    "product": "Dual Monitor Mount",
+    "price": 85.35
+  },
+  {
+    "id": "TX-1018",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-24",
+    "product": "Mechanical Keyboard",
+    "price": 76.08
+  },
+  {
+    "id": "TX-1019",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-23",
+    "product": "Ergonomic Mouse",
+    "price": 79.51
+  },
+  {
+    "id": "TX-1020",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-23",
+    "product": "Portable SSD",
+    "price": 92.94
+  },
+  {
+    "id": "TX-1021",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-23",
+    "product": "Web Camera",
+    "price": 74.86
+  },
+  {
+    "id": "TX-1022",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-23",
+    "product": "Laptop Stand",
+    "price": 50.5
+  },
+  {
+    "id": "TX-1023",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-23",
+    "product": "Laptop Stand",
+    "price": 46.1
+  },
+  {
+    "id": "TX-1024",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-22",
+    "product": "Ergonomic Mouse",
+    "price": 85.44
+  },
+  {
+    "id": "TX-1025",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-22",
+    "product": "Dual Monitor Mount",
+    "price": 82.56
+  },
+  {
+    "id": "TX-1026",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-22",
+    "product": "HDMI Cable",
+    "price": 21.66
+  },
+  {
+    "id": "TX-1027",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-22",
+    "product": "Desk Mat",
+    "price": 33.98
+  },
+  {
+    "id": "TX-1028",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-22",
+    "product": "DisplayPort Cable",
+    "price": 26.54
+  },
+  {
+    "id": "TX-1029",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-22",
+    "product": "Laptop Stand",
+    "price": 25.54
+  },
+  {
+    "id": "TX-1030",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-21",
+    "product": "Laptop Cooling Pad",
+    "price": 23.61
+  },
+  {
+    "id": "TX-1031",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-21",
+    "product": "USB Flash Drive",
+    "price": 8.51
+  },
+  {
+    "id": "TX-1032",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-20",
+    "product": "Ergonomic Mouse",
+    "price": 53.09
+  },
+  {
+    "id": "TX-1033",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-20",
+    "product": "Laptop Stand",
+    "price": 42.49
+  },
+  {
+    "id": "TX-1034",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-20",
+    "product": "Mechanical Keyboard",
+    "price": 102.95
+  },
+  {
+    "id": "TX-1035",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-20",
+    "product": "USB-C Hub",
+    "price": 50.82
+  },
+  {
+    "id": "TX-1036",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-19",
+    "product": "USB Flash Drive",
+    "price": 19.25
+  },
+  {
+    "id": "TX-1037",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-19",
+    "product": "USB Flash Drive",
+    "price": 31.25
+  },
+  {
+    "id": "TX-1038",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-19",
+    "product": "Mechanical Keyboard",
+    "price": 97.68
+  },
+  {
+    "id": "TX-1039",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-18",
+    "product": "Desk Mat",
+    "price": 34.73
+  },
+  {
+    "id": "TX-1040",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-18",
+    "product": "Laptop Stand",
+    "price": 39
+  },
+  {
+    "id": "TX-1041",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-18",
+    "product": "DisplayPort Cable",
+    "price": 12.67
+  },
+  {
+    "id": "TX-1042",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-18",
+    "product": "Dual Monitor Mount",
+    "price": 124.62
+  },
+  {
+    "id": "TX-1043",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-18",
+    "product": "Laptop Stand",
+    "price": 53.04
+  },
+  {
+    "id": "TX-1044",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-17",
+    "product": "Laptop Cooling Pad",
+    "price": 46.12
+  },
+  {
+    "id": "TX-1045",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-17",
+    "product": "Bluetooth Adapter",
+    "price": 16.8
+  },
+  {
+    "id": "TX-1046",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-17",
+    "product": "DisplayPort Cable",
+    "price": 27.61
+  },
+  {
+    "id": "TX-1047",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-16",
+    "product": "Wireless Headphones",
+    "price": 58.27
+  },
+  {
+    "id": "TX-1048",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-15",
+    "product": "Ergonomic Mouse",
+    "price": 69.74
+  },
+  {
+    "id": "TX-1049",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-15",
+    "product": "Ergonomic Mouse",
+    "price": 68.54
+  },
+  {
+    "id": "TX-1050",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-14",
+    "product": "HDMI Cable",
+    "price": 12.88
+  },
+  {
+    "id": "TX-1051",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-14",
+    "product": "Web Camera",
+    "price": 46.23
+  },
+  {
+    "id": "TX-1052",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-14",
+    "product": "Laptop Stand",
+    "price": 32.79
+  },
+  {
+    "id": "TX-1053",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-14",
+    "product": "Bluetooth Adapter",
+    "price": 17.82
+  },
+  {
+    "id": "TX-1054",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-14",
+    "product": "Dual Monitor Mount",
+    "price": 74.09
+  },
+  {
+    "id": "TX-1055",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-14",
+    "product": "Bluetooth Adapter",
+    "price": 21.28
+  },
+  {
+    "id": "TX-1056",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-13",
+    "product": "Bluetooth Adapter",
+    "price": 15.93
+  },
+  {
+    "id": "TX-1057",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-13",
+    "product": "USB-C Hub",
+    "price": 35.8
+  },
+  {
+    "id": "TX-1058",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-13",
+    "product": "Mechanical Keyboard",
+    "price": 123.08
+  },
+  {
+    "id": "TX-1059",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-13",
+    "product": "Mechanical Keyboard",
+    "price": 97.75
+  },
+  {
+    "id": "TX-1060",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-13",
+    "product": "Laptop Stand",
+    "price": 40.7
+  },
+  {
+    "id": "TX-1061",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-12",
+    "product": "Laptop Stand",
+    "price": 39.03
+  },
+  {
+    "id": "TX-1062",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-12",
+    "product": "Portable SSD",
+    "price": 86.46
+  },
+  {
+    "id": "TX-1063",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-12",
+    "product": "HDMI Cable",
+    "price": 19.17
+  },
+  {
+    "id": "TX-1064",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-12",
+    "product": "Portable SSD",
+    "price": 132.63
+  },
+  {
+    "id": "TX-1065",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-12",
+    "product": "Dual Monitor Mount",
+    "price": 120.48
+  },
+  {
+    "id": "TX-1066",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-12",
+    "product": "Laptop Stand",
+    "price": 44.35
+  },
+  {
+    "id": "TX-1067",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-11",
+    "product": "Wireless Headphones",
+    "price": 163.77
+  },
+  {
+    "id": "TX-1068",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-11",
+    "product": "DisplayPort Cable",
+    "price": 22.57
+  },
+  {
+    "id": "TX-1069",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-11",
+    "product": "USB Flash Drive",
+    "price": 32.33
+  },
+  {
+    "id": "TX-1070",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-11",
+    "product": "HDMI Cable",
+    "price": 24.98
+  },
+  {
+    "id": "TX-1071",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-11",
+    "product": "Desk Mat",
+    "price": 31.55
+  },
+  {
+    "id": "TX-1072",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-10",
+    "product": "Laptop Stand",
+    "price": 28.54
+  },
+  {
+    "id": "TX-1073",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-10",
+    "product": "Laptop Stand",
+    "price": 33.61
+  },
+  {
+    "id": "TX-1074",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-10",
+    "product": "Web Camera",
+    "price": 79.85
+  },
+  {
+    "id": "TX-1075",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-10",
+    "product": "DisplayPort Cable",
+    "price": 18.66
+  },
+  {
+    "id": "TX-1076",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-10",
+    "product": "USB Flash Drive",
+    "price": 14.8
+  },
+  {
+    "id": "TX-1077",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-09",
+    "product": "Desk Mat",
+    "price": 32.63
+  },
+  {
+    "id": "TX-1078",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-09",
+    "product": "Desk Mat",
+    "price": 32.6
+  },
+  {
+    "id": "TX-1079",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-09",
+    "product": "DisplayPort Cable",
+    "price": 12.4
+  },
+  {
+    "id": "TX-1080",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-08",
+    "product": "Desk Mat",
+    "price": 38.67
+  },
+  {
+    "id": "TX-1081",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-08",
+    "product": "Wireless Headphones",
+    "price": 71.97
+  },
+  {
+    "id": "TX-1082",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-08",
+    "product": "Ergonomic Mouse",
+    "price": 64.44
+  },
+  {
+    "id": "TX-1083",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-08",
+    "product": "USB Flash Drive",
+    "price": 31.21
+  },
+  {
+    "id": "TX-1084",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-07",
+    "product": "USB-C Hub",
+    "price": 74.02
+  },
+  {
+    "id": "TX-1085",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-07",
+    "product": "Web Camera",
+    "price": 73.37
+  },
+  {
+    "id": "TX-1086",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-07",
+    "product": "Desk Mat",
+    "price": 17.26
+  },
+  {
+    "id": "TX-1087",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-07",
+    "product": "HDMI Cable",
+    "price": 21.83
+  },
+  {
+    "id": "TX-1088",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-06",
+    "product": "Laptop Stand",
+    "price": 48.54
+  },
+  {
+    "id": "TX-1089",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-06",
+    "product": "Desk Mat",
+    "price": 37.34
+  },
+  {
+    "id": "TX-1090",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-05",
+    "product": "Desk Mat",
+    "price": 37.86
+  },
+  {
+    "id": "TX-1091",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-04",
+    "product": "DisplayPort Cable",
+    "price": 19.91
+  },
+  {
+    "id": "TX-1092",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-04",
+    "product": "Desk Mat",
+    "price": 15.14
+  },
+  {
+    "id": "TX-1093",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-04",
+    "product": "DisplayPort Cable",
+    "price": 21.69
+  },
+  {
+    "id": "TX-1094",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-03",
+    "product": "Bluetooth Adapter",
+    "price": 17.49
+  },
+  {
+    "id": "TX-1095",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-03",
+    "product": "Laptop Stand",
+    "price": 47.61
+  },
+  {
+    "id": "TX-1096",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-03",
+    "product": "Desk Mat",
+    "price": 36.33
+  },
+  {
+    "id": "TX-1097",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-02",
+    "product": "Laptop Cooling Pad",
+    "price": 47
+  },
+  {
+    "id": "TX-1098",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-02",
+    "product": "Desk Mat",
+    "price": 37.99
+  },
+  {
+    "id": "TX-1099",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-02",
+    "product": "Wireless Headphones",
+    "price": 55.58
+  },
+  {
+    "id": "TX-1100",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-02",
+    "product": "USB-C Hub",
+    "price": 43.1
+  },
+  {
+    "id": "TX-1101",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-02-02",
+    "product": "Laptop Cooling Pad",
+    "price": 35.53
+  },
+  {
+    "id": "TX-1102",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-02-01",
+    "product": "Bluetooth Adapter",
+    "price": 26.98
+  },
+  {
+    "id": "TX-1103",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-01",
+    "product": "Portable SSD",
+    "price": 80.18
+  },
+  {
+    "id": "TX-1104",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-02-01",
+    "product": "Laptop Cooling Pad",
+    "price": 36.26
+  },
+  {
+    "id": "TX-1105",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-31",
+    "product": "Wireless Headphones",
+    "price": 142.92
+  },
+  {
+    "id": "TX-1106",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-31",
+    "product": "HDMI Cable",
+    "price": 21.83
+  },
+  {
+    "id": "TX-1107",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-31",
+    "product": "Dual Monitor Mount",
+    "price": 109.1
+  },
+  {
+    "id": "TX-1108",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-31",
+    "product": "USB-C Hub",
+    "price": 74.89
+  },
+  {
+    "id": "TX-1109",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-31",
+    "product": "Laptop Stand",
+    "price": 26.1
+  },
+  {
+    "id": "TX-1110",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-31",
+    "product": "Dual Monitor Mount",
+    "price": 118.77
+  },
+  {
+    "id": "TX-1111",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-31",
+    "product": "Dual Monitor Mount",
+    "price": 113.47
+  },
+  {
+    "id": "TX-1112",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-31",
+    "product": "Web Camera",
+    "price": 82.66
+  },
+  {
+    "id": "TX-1113",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-31",
+    "product": "Portable SSD",
+    "price": 152.42
+  },
+  {
+    "id": "TX-1114",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-31",
+    "product": "HDMI Cable",
+    "price": 16.5
+  },
+  {
+    "id": "TX-1115",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-31",
+    "product": "Web Camera",
+    "price": 76.66
+  },
+  {
+    "id": "TX-1116",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-31",
+    "product": "Bluetooth Adapter",
+    "price": 17.63
+  },
+  {
+    "id": "TX-1117",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-31",
+    "product": "USB Flash Drive",
+    "price": 15.71
+  },
+  {
+    "id": "TX-1118",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-30",
+    "product": "USB-C Hub",
+    "price": 38.94
+  },
+  {
+    "id": "TX-1119",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-30",
+    "product": "DisplayPort Cable",
+    "price": 14.28
+  },
+  {
+    "id": "TX-1120",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-30",
+    "product": "Dual Monitor Mount",
+    "price": 82.43
+  },
+  {
+    "id": "TX-1121",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-30",
+    "product": "Portable SSD",
+    "price": 173.04
+  },
+  {
+    "id": "TX-1122",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-30",
+    "product": "Desk Mat",
+    "price": 19.19
+  },
+  {
+    "id": "TX-1123",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-30",
+    "product": "Bluetooth Adapter",
+    "price": 23.01
+  },
+  {
+    "id": "TX-1124",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-30",
+    "product": "USB Flash Drive",
+    "price": 10.4
+  },
+  {
+    "id": "TX-1125",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-30",
+    "product": "Laptop Stand",
+    "price": 29.91
+  },
+  {
+    "id": "TX-1126",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-30",
+    "product": "Web Camera",
+    "price": 93.26
+  },
+  {
+    "id": "TX-1127",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-30",
+    "product": "Portable SSD",
+    "price": 118.16
+  },
+  {
+    "id": "TX-1128",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-29",
+    "product": "Wireless Headphones",
+    "price": 89.77
+  },
+  {
+    "id": "TX-1129",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-29",
+    "product": "USB-C Hub",
+    "price": 30.59
+  },
+  {
+    "id": "TX-1130",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-29",
+    "product": "Mechanical Keyboard",
+    "price": 79.75
+  },
+  {
+    "id": "TX-1131",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-29",
+    "product": "USB Flash Drive",
+    "price": 10.6
+  },
+  {
+    "id": "TX-1132",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-29",
+    "product": "Desk Mat",
+    "price": 24.09
+  },
+  {
+    "id": "TX-1133",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-29",
+    "product": "Dual Monitor Mount",
+    "price": 107.28
+  },
+  {
+    "id": "TX-1134",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-29",
+    "product": "USB-C Hub",
+    "price": 66.39
+  },
+  {
+    "id": "TX-1135",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-29",
+    "product": "DisplayPort Cable",
+    "price": 24.5
+  },
+  {
+    "id": "TX-1136",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-28",
+    "product": "Web Camera",
+    "price": 53.18
+  },
+  {
+    "id": "TX-1137",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-28",
+    "product": "Web Camera",
+    "price": 101.37
+  },
+  {
+    "id": "TX-1138",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-28",
+    "product": "Ergonomic Mouse",
+    "price": 59.05
+  },
+  {
+    "id": "TX-1139",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-28",
+    "product": "Desk Mat",
+    "price": 19.69
+  },
+  {
+    "id": "TX-1140",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-28",
+    "product": "Laptop Stand",
+    "price": 35
+  },
+  {
+    "id": "TX-1141",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-28",
+    "product": "Dual Monitor Mount",
+    "price": 118.25
+  },
+  {
+    "id": "TX-1142",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-28",
+    "product": "USB Flash Drive",
+    "price": 33.38
+  },
+  {
+    "id": "TX-1143",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-28",
+    "product": "Portable SSD",
+    "price": 183.41
+  },
+  {
+    "id": "TX-1144",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-28",
+    "product": "Ergonomic Mouse",
+    "price": 70.41
+  },
+  {
+    "id": "TX-1145",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-28",
+    "product": "Wireless Headphones",
+    "price": 146.28
+  },
+  {
+    "id": "TX-1146",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-28",
+    "product": "Laptop Stand",
+    "price": 31.54
+  },
+  {
+    "id": "TX-1147",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-27",
+    "product": "Desk Mat",
+    "price": 18.63
+  },
+  {
+    "id": "TX-1148",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-27",
+    "product": "Dual Monitor Mount",
+    "price": 102.66
+  },
+  {
+    "id": "TX-1149",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-27",
+    "product": "Dual Monitor Mount",
+    "price": 85.62
+  },
+  {
+    "id": "TX-1150",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-27",
+    "product": "HDMI Cable",
+    "price": 22.21
+  },
+  {
+    "id": "TX-1151",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-27",
+    "product": "Desk Mat",
+    "price": 18.66
+  },
+  {
+    "id": "TX-1152",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-27",
+    "product": "Desk Mat",
+    "price": 33.28
+  },
+  {
+    "id": "TX-1153",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "Wireless Headphones",
+    "price": 143.08
+  },
+  {
+    "id": "TX-1154",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "DisplayPort Cable",
+    "price": 21.18
+  },
+  {
+    "id": "TX-1155",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "Wireless Headphones",
+    "price": 136.28
+  },
+  {
+    "id": "TX-1156",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "Laptop Stand",
+    "price": 32.08
+  },
+  {
+    "id": "TX-1157",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "Laptop Cooling Pad",
+    "price": 21.43
+  },
+  {
+    "id": "TX-1158",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-27",
+    "product": "USB-C Hub",
+    "price": 52.93
+  },
+  {
+    "id": "TX-1159",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-26",
+    "product": "Web Camera",
+    "price": 97.07
+  },
+  {
+    "id": "TX-1160",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-26",
+    "product": "Portable SSD",
+    "price": 136.45
+  },
+  {
+    "id": "TX-1161",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-26",
+    "product": "HDMI Cable",
+    "price": 22.45
+  },
+  {
+    "id": "TX-1162",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-26",
+    "product": "DisplayPort Cable",
+    "price": 16.83
+  },
+  {
+    "id": "TX-1163",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-26",
+    "product": "Wireless Headphones",
+    "price": 99.89
+  },
+  {
+    "id": "TX-1164",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-26",
+    "product": "Laptop Cooling Pad",
+    "price": 30.37
+  },
+  {
+    "id": "TX-1165",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-26",
+    "product": "USB Flash Drive",
+    "price": 8.28
+  },
+  {
+    "id": "TX-1166",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-26",
+    "product": "USB Flash Drive",
+    "price": 20.04
+  },
+  {
+    "id": "TX-1167",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-25",
+    "product": "Ergonomic Mouse",
+    "price": 46.46
+  },
+  {
+    "id": "TX-1168",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-25",
+    "product": "Ergonomic Mouse",
+    "price": 88.09
+  },
+  {
+    "id": "TX-1169",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-25",
+    "product": "Ergonomic Mouse",
+    "price": 61.96
+  },
+  {
+    "id": "TX-1170",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-25",
+    "product": "DisplayPort Cable",
+    "price": 17.11
+  },
+  {
+    "id": "TX-1171",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-25",
+    "product": "USB Flash Drive",
+    "price": 15.81
+  },
+  {
+    "id": "TX-1172",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-25",
+    "product": "USB-C Hub",
+    "price": 62.71
+  },
+  {
+    "id": "TX-1173",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-25",
+    "product": "Laptop Cooling Pad",
+    "price": 36.92
+  },
+  {
+    "id": "TX-1174",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-25",
+    "product": "Mechanical Keyboard",
+    "price": 138.82
+  },
+  {
+    "id": "TX-1175",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-25",
+    "product": "Laptop Cooling Pad",
+    "price": 45.39
+  },
+  {
+    "id": "TX-1176",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-25",
+    "product": "Desk Mat",
+    "price": 20.93
+  },
+  {
+    "id": "TX-1177",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-24",
+    "product": "HDMI Cable",
+    "price": 19.89
+  },
+  {
+    "id": "TX-1178",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-24",
+    "product": "USB Flash Drive",
+    "price": 10.87
+  },
+  {
+    "id": "TX-1179",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Portable SSD",
+    "price": 145.81
+  },
+  {
+    "id": "TX-1180",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Wireless Headphones",
+    "price": 81.29
+  },
+  {
+    "id": "TX-1181",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-24",
+    "product": "DisplayPort Cable",
+    "price": 19.07
+  },
+  {
+    "id": "TX-1182",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-24",
+    "product": "Ergonomic Mouse",
+    "price": 56.9
+  },
+  {
+    "id": "TX-1183",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Laptop Stand",
+    "price": 35.35
+  },
+  {
+    "id": "TX-1184",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Bluetooth Adapter",
+    "price": 24.93
+  },
+  {
+    "id": "TX-1185",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Laptop Stand",
+    "price": 51.43
+  },
+  {
+    "id": "TX-1186",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-24",
+    "product": "Portable SSD",
+    "price": 155.66
+  },
+  {
+    "id": "TX-1187",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-24",
+    "product": "USB-C Hub",
+    "price": 66.09
+  },
+  {
+    "id": "TX-1188",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-24",
+    "product": "Ergonomic Mouse",
+    "price": 67.63
+  },
+  {
+    "id": "TX-1189",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-23",
+    "product": "Laptop Stand",
+    "price": 50.31
+  },
+  {
+    "id": "TX-1190",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-23",
+    "product": "Mechanical Keyboard",
+    "price": 102.15
+  },
+  {
+    "id": "TX-1191",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-23",
+    "product": "Laptop Cooling Pad",
+    "price": 37.53
+  },
+  {
+    "id": "TX-1192",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-23",
+    "product": "Dual Monitor Mount",
+    "price": 93.87
+  },
+  {
+    "id": "TX-1193",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-23",
+    "product": "USB Flash Drive",
+    "price": 25.06
+  },
+  {
+    "id": "TX-1194",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-23",
+    "product": "Wireless Headphones",
+    "price": 124.55
+  },
+  {
+    "id": "TX-1195",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-22",
+    "product": "Dual Monitor Mount",
+    "price": 64.4
+  },
+  {
+    "id": "TX-1196",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-22",
+    "product": "Portable SSD",
+    "price": 120.65
+  },
+  {
+    "id": "TX-1197",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-22",
+    "product": "Dual Monitor Mount",
+    "price": 90.4
+  },
+  {
+    "id": "TX-1198",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-22",
+    "product": "HDMI Cable",
+    "price": 24.04
+  },
+  {
+    "id": "TX-1199",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-21",
+    "product": "Ergonomic Mouse",
+    "price": 63.19
+  },
+  {
+    "id": "TX-1200",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-21",
+    "product": "Ergonomic Mouse",
+    "price": 65.95
+  },
+  {
+    "id": "TX-1201",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-21",
+    "product": "Desk Mat",
+    "price": 15.92
+  },
+  {
+    "id": "TX-1202",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-21",
+    "product": "Dual Monitor Mount",
+    "price": 110.82
+  },
+  {
+    "id": "TX-1203",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-21",
+    "product": "Laptop Cooling Pad",
+    "price": 32.44
+  },
+  {
+    "id": "TX-1204",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-20",
+    "product": "Ergonomic Mouse",
+    "price": 86.97
+  },
+  {
+    "id": "TX-1205",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-20",
+    "product": "Bluetooth Adapter",
+    "price": 15.97
+  },
+  {
+    "id": "TX-1206",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-20",
+    "product": "USB Flash Drive",
+    "price": 14.47
+  },
+  {
+    "id": "TX-1207",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-20",
+    "product": "HDMI Cable",
+    "price": 23.75
+  },
+  {
+    "id": "TX-1208",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-20",
+    "product": "Wireless Headphones",
+    "price": 141.06
+  },
+  {
+    "id": "TX-1209",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-19",
+    "product": "Bluetooth Adapter",
+    "price": 28.43
+  },
+  {
+    "id": "TX-1210",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-19",
+    "product": "Dual Monitor Mount",
+    "price": 87.28
+  },
+  {
+    "id": "TX-1211",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-19",
+    "product": "Dual Monitor Mount",
+    "price": 72.99
+  },
+  {
+    "id": "TX-1212",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-19",
+    "product": "DisplayPort Cable",
+    "price": 22.46
+  },
+  {
+    "id": "TX-1213",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-19",
+    "product": "Bluetooth Adapter",
+    "price": 27.5
+  },
+  {
+    "id": "TX-1214",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-19",
+    "product": "HDMI Cable",
+    "price": 13.64
+  },
+  {
+    "id": "TX-1215",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-18",
+    "product": "Web Camera",
+    "price": 78.32
+  },
+  {
+    "id": "TX-1216",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-18",
+    "product": "USB-C Hub",
+    "price": 75.57
+  },
+  {
+    "id": "TX-1217",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-18",
+    "product": "Web Camera",
+    "price": 84.49
+  },
+  {
+    "id": "TX-1218",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-18",
+    "product": "Ergonomic Mouse",
+    "price": 55.58
+  },
+  {
+    "id": "TX-1219",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-18",
+    "product": "USB Flash Drive",
+    "price": 28.29
+  },
+  {
+    "id": "TX-1220",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-18",
+    "product": "Wireless Headphones",
+    "price": 65.84
+  },
+  {
+    "id": "TX-1221",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-18",
+    "product": "HDMI Cable",
+    "price": 15.26
+  },
+  {
+    "id": "TX-1222",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-17",
+    "product": "Ergonomic Mouse",
+    "price": 77.18
+  },
+  {
+    "id": "TX-1223",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-17",
+    "product": "USB-C Hub",
+    "price": 50.13
+  },
+  {
+    "id": "TX-1224",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-17",
+    "product": "HDMI Cable",
+    "price": 14.81
+  },
+  {
+    "id": "TX-1225",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-17",
+    "product": "Dual Monitor Mount",
+    "price": 69.48
+  },
+  {
+    "id": "TX-1226",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-17",
+    "product": "Mechanical Keyboard",
+    "price": 143.61
+  },
+  {
+    "id": "TX-1227",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-17",
+    "product": "Wireless Headphones",
+    "price": 89.82
+  },
+  {
+    "id": "TX-1228",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-16",
+    "product": "Mechanical Keyboard",
+    "price": 74.49
+  },
+  {
+    "id": "TX-1229",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-16",
+    "product": "USB-C Hub",
+    "price": 38.91
+  },
+  {
+    "id": "TX-1230",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-16",
+    "product": "Web Camera",
+    "price": 117.89
+  },
+  {
+    "id": "TX-1231",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-16",
+    "product": "Ergonomic Mouse",
+    "price": 47
+  },
+  {
+    "id": "TX-1232",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-16",
+    "product": "Wireless Headphones",
+    "price": 164.69
+  },
+  {
+    "id": "TX-1233",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-16",
+    "product": "Web Camera",
+    "price": 68.46
+  },
+  {
+    "id": "TX-1234",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-16",
+    "product": "Wireless Headphones",
+    "price": 134.19
+  },
+  {
+    "id": "TX-1235",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-16",
+    "product": "Laptop Cooling Pad",
+    "price": 38.04
+  },
+  {
+    "id": "TX-1236",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-16",
+    "product": "Laptop Cooling Pad",
+    "price": 20.43
+  },
+  {
+    "id": "TX-1237",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-16",
+    "product": "HDMI Cable",
+    "price": 21.63
+  },
+  {
+    "id": "TX-1238",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-16",
+    "product": "USB-C Hub",
+    "price": 75.61
+  },
+  {
+    "id": "TX-1239",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-16",
+    "product": "Mechanical Keyboard",
+    "price": 126.03
+  },
+  {
+    "id": "TX-1240",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-16",
+    "product": "Mechanical Keyboard",
+    "price": 93
+  },
+  {
+    "id": "TX-1241",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-15",
+    "product": "Desk Mat",
+    "price": 38.97
+  },
+  {
+    "id": "TX-1242",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-15",
+    "product": "Laptop Stand",
+    "price": 27.76
+  },
+  {
+    "id": "TX-1243",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-15",
+    "product": "DisplayPort Cable",
+    "price": 29.26
+  },
+  {
+    "id": "TX-1244",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-15",
+    "product": "Ergonomic Mouse",
+    "price": 71.8
+  },
+  {
+    "id": "TX-1245",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-14",
+    "product": "Ergonomic Mouse",
+    "price": 67.05
+  },
+  {
+    "id": "TX-1246",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-14",
+    "product": "Mechanical Keyboard",
+    "price": 79.36
+  },
+  {
+    "id": "TX-1247",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-14",
+    "product": "Portable SSD",
+    "price": 103.94
+  },
+  {
+    "id": "TX-1248",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-14",
+    "product": "Wireless Headphones",
+    "price": 87.71
+  },
+  {
+    "id": "TX-1249",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-14",
+    "product": "Portable SSD",
+    "price": 88.6
+  },
+  {
+    "id": "TX-1250",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-14",
+    "product": "Web Camera",
+    "price": 68.56
+  },
+  {
+    "id": "TX-1251",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-14",
+    "product": "Mechanical Keyboard",
+    "price": 96.95
+  },
+  {
+    "id": "TX-1252",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-14",
+    "product": "Bluetooth Adapter",
+    "price": 19.78
+  },
+  {
+    "id": "TX-1253",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-14",
+    "product": "Mechanical Keyboard",
+    "price": 140.55
+  },
+  {
+    "id": "TX-1254",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-14",
+    "product": "Portable SSD",
+    "price": 106.23
+  },
+  {
+    "id": "TX-1255",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-14",
+    "product": "Laptop Stand",
+    "price": 58.75
+  },
+  {
+    "id": "TX-1256",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-13",
+    "product": "Desk Mat",
+    "price": 30.49
+  },
+  {
+    "id": "TX-1257",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-13",
+    "product": "Portable SSD",
+    "price": 83.85
+  },
+  {
+    "id": "TX-1258",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-13",
+    "product": "Bluetooth Adapter",
+    "price": 28.27
+  },
+  {
+    "id": "TX-1259",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-13",
+    "product": "Portable SSD",
+    "price": 160.92
+  },
+  {
+    "id": "TX-1260",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-13",
+    "product": "Portable SSD",
+    "price": 197.13
+  },
+  {
+    "id": "TX-1261",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-13",
+    "product": "Ergonomic Mouse",
+    "price": 44.69
+  },
+  {
+    "id": "TX-1262",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-13",
+    "product": "Bluetooth Adapter",
+    "price": 15.12
+  },
+  {
+    "id": "TX-1263",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-12",
+    "product": "Portable SSD",
+    "price": 108.06
+  },
+  {
+    "id": "TX-1264",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-12",
+    "product": "Portable SSD",
+    "price": 166.73
+  },
+  {
+    "id": "TX-1265",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-12",
+    "product": "Dual Monitor Mount",
+    "price": 127.27
+  },
+  {
+    "id": "TX-1266",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-12",
+    "product": "Laptop Stand",
+    "price": 27.52
+  },
+  {
+    "id": "TX-1267",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-12",
+    "product": "Dual Monitor Mount",
+    "price": 74.23
+  },
+  {
+    "id": "TX-1268",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-12",
+    "product": "DisplayPort Cable",
+    "price": 19.7
+  },
+  {
+    "id": "TX-1269",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-12",
+    "product": "USB-C Hub",
+    "price": 59.02
+  },
+  {
+    "id": "TX-1270",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-12",
+    "product": "Laptop Stand",
+    "price": 42.3
+  },
+  {
+    "id": "TX-1271",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-12",
+    "product": "Ergonomic Mouse",
+    "price": 63.16
+  },
+  {
+    "id": "TX-1272",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-11",
+    "product": "HDMI Cable",
+    "price": 20.65
+  },
+  {
+    "id": "TX-1273",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-11",
+    "product": "Laptop Stand",
+    "price": 39.1
+  },
+  {
+    "id": "TX-1274",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-11",
+    "product": "Laptop Stand",
+    "price": 57.06
+  },
+  {
+    "id": "TX-1275",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-11",
+    "product": "Bluetooth Adapter",
+    "price": 23.44
+  },
+  {
+    "id": "TX-1276",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-11",
+    "product": "Dual Monitor Mount",
+    "price": 101.93
+  },
+  {
+    "id": "TX-1277",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-10",
+    "product": "Ergonomic Mouse",
+    "price": 58.55
+  },
+  {
+    "id": "TX-1278",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-10",
+    "product": "Bluetooth Adapter",
+    "price": 24.46
+  },
+  {
+    "id": "TX-1279",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-10",
+    "product": "Bluetooth Adapter",
+    "price": 17.87
+  },
+  {
+    "id": "TX-1280",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-10",
+    "product": "Ergonomic Mouse",
+    "price": 81.78
+  },
+  {
+    "id": "TX-1281",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-10",
+    "product": "HDMI Cable",
+    "price": 12.9
+  },
+  {
+    "id": "TX-1282",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-10",
+    "product": "Bluetooth Adapter",
+    "price": 15.1
+  },
+  {
+    "id": "TX-1283",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-10",
+    "product": "Laptop Cooling Pad",
+    "price": 46.65
+  },
+  {
+    "id": "TX-1284",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-10",
+    "product": "Portable SSD",
+    "price": 160.51
+  },
+  {
+    "id": "TX-1285",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-10",
+    "product": "HDMI Cable",
+    "price": 20.75
+  },
+  {
+    "id": "TX-1286",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "Ergonomic Mouse",
+    "price": 44.87
+  },
+  {
+    "id": "TX-1287",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-09",
+    "product": "Portable SSD",
+    "price": 85.83
+  },
+  {
+    "id": "TX-1288",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "HDMI Cable",
+    "price": 16.08
+  },
+  {
+    "id": "TX-1289",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-09",
+    "product": "Laptop Stand",
+    "price": 33.43
+  },
+  {
+    "id": "TX-1290",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "HDMI Cable",
+    "price": 13.74
+  },
+  {
+    "id": "TX-1291",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-09",
+    "product": "Wireless Headphones",
+    "price": 140.6
+  },
+  {
+    "id": "TX-1292",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-09",
+    "product": "Bluetooth Adapter",
+    "price": 24.05
+  },
+  {
+    "id": "TX-1293",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "Laptop Stand",
+    "price": 51.03
+  },
+  {
+    "id": "TX-1294",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-09",
+    "product": "HDMI Cable",
+    "price": 23.46
+  },
+  {
+    "id": "TX-1295",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-09",
+    "product": "USB Flash Drive",
+    "price": 32.61
+  },
+  {
+    "id": "TX-1296",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "Desk Mat",
+    "price": 17.42
+  },
+  {
+    "id": "TX-1297",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-09",
+    "product": "Mechanical Keyboard",
+    "price": 116.44
+  },
+  {
+    "id": "TX-1298",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "Portable SSD",
+    "price": 111.5
+  },
+  {
+    "id": "TX-1299",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "USB Flash Drive",
+    "price": 17.27
+  },
+  {
+    "id": "TX-1300",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-09",
+    "product": "Laptop Stand",
+    "price": 34.43
+  },
+  {
+    "id": "TX-1301",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-08",
+    "product": "Dual Monitor Mount",
+    "price": 127.24
+  },
+  {
+    "id": "TX-1302",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-08",
+    "product": "USB-C Hub",
+    "price": 50.44
+  },
+  {
+    "id": "TX-1303",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-08",
+    "product": "USB-C Hub",
+    "price": 62.57
+  },
+  {
+    "id": "TX-1304",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-08",
+    "product": "Wireless Headphones",
+    "price": 99.9
+  },
+  {
+    "id": "TX-1305",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-07",
+    "product": "Mechanical Keyboard",
+    "price": 95.16
+  },
+  {
+    "id": "TX-1306",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-07",
+    "product": "Mechanical Keyboard",
+    "price": 75.92
+  },
+  {
+    "id": "TX-1307",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-07",
+    "product": "DisplayPort Cable",
+    "price": 20.07
+  },
+  {
+    "id": "TX-1308",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-07",
+    "product": "USB-C Hub",
+    "price": 78.81
+  },
+  {
+    "id": "TX-1309",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-07",
+    "product": "Desk Mat",
+    "price": 32.08
+  },
+  {
+    "id": "TX-1310",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-07",
+    "product": "Bluetooth Adapter",
+    "price": 20.09
+  },
+  {
+    "id": "TX-1311",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-07",
+    "product": "Bluetooth Adapter",
+    "price": 28.06
+  },
+  {
+    "id": "TX-1312",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-07",
+    "product": "Ergonomic Mouse",
+    "price": 52.96
+  },
+  {
+    "id": "TX-1313",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-07",
+    "product": "HDMI Cable",
+    "price": 10.88
+  },
+  {
+    "id": "TX-1314",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-07",
+    "product": "Laptop Stand",
+    "price": 59.36
+  },
+  {
+    "id": "TX-1315",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-06",
+    "product": "USB-C Hub",
+    "price": 66.13
+  },
+  {
+    "id": "TX-1316",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-06",
+    "product": "Bluetooth Adapter",
+    "price": 22.09
+  },
+  {
+    "id": "TX-1317",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-06",
+    "product": "Web Camera",
+    "price": 68.41
+  },
+  {
+    "id": "TX-1318",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-06",
+    "product": "USB-C Hub",
+    "price": 46.65
+  },
+  {
+    "id": "TX-1319",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-06",
+    "product": "USB-C Hub",
+    "price": 37.14
+  },
+  {
+    "id": "TX-1320",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-05",
+    "product": "Laptop Stand",
+    "price": 41.64
+  },
+  {
+    "id": "TX-1321",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2026-01-05",
+    "product": "Laptop Cooling Pad",
+    "price": 33.72
+  },
+  {
+    "id": "TX-1322",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-05",
+    "product": "Desk Mat",
+    "price": 28.93
+  },
+  {
+    "id": "TX-1323",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-05",
+    "product": "HDMI Cable",
+    "price": 23.18
+  },
+  {
+    "id": "TX-1324",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-04",
+    "product": "Ergonomic Mouse",
+    "price": 80.36
+  },
+  {
+    "id": "TX-1325",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-04",
+    "product": "DisplayPort Cable",
+    "price": 26.15
+  },
+  {
+    "id": "TX-1326",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-04",
+    "product": "USB-C Hub",
+    "price": 36.43
+  },
+  {
+    "id": "TX-1327",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-04",
+    "product": "Ergonomic Mouse",
+    "price": 79.2
+  },
+  {
+    "id": "TX-1328",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-04",
+    "product": "Laptop Cooling Pad",
+    "price": 25.5
+  },
+  {
+    "id": "TX-1329",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-04",
+    "product": "Web Camera",
+    "price": 76.8
+  },
+  {
+    "id": "TX-1330",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-04",
+    "product": "Dual Monitor Mount",
+    "price": 94.2
+  },
+  {
+    "id": "TX-1331",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-04",
+    "product": "HDMI Cable",
+    "price": 24.08
+  },
+  {
+    "id": "TX-1332",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-04",
+    "product": "Mechanical Keyboard",
+    "price": 145.48
+  },
+  {
+    "id": "TX-1333",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-04",
+    "product": "USB-C Hub",
+    "price": 66
+  },
+  {
+    "id": "TX-1334",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-03",
+    "product": "USB Flash Drive",
+    "price": 26.75
+  },
+  {
+    "id": "TX-1335",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-03",
+    "product": "USB Flash Drive",
+    "price": 30.6
+  },
+  {
+    "id": "TX-1336",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-03",
+    "product": "Portable SSD",
+    "price": 156.5
+  },
+  {
+    "id": "TX-1337",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-03",
+    "product": "USB Flash Drive",
+    "price": 12.5
+  },
+  {
+    "id": "TX-1338",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-03",
+    "product": "DisplayPort Cable",
+    "price": 14.16
+  },
+  {
+    "id": "TX-1339",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-03",
+    "product": "Laptop Cooling Pad",
+    "price": 43.01
+  },
+  {
+    "id": "TX-1340",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-03",
+    "product": "HDMI Cable",
+    "price": 24.22
+  },
+  {
+    "id": "TX-1341",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-03",
+    "product": "Desk Mat",
+    "price": 38.26
+  },
+  {
+    "id": "TX-1342",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-02",
+    "product": "DisplayPort Cable",
+    "price": 29
+  },
+  {
+    "id": "TX-1343",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-02",
+    "product": "Ergonomic Mouse",
+    "price": 58.25
+  },
+  {
+    "id": "TX-1344",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-02",
+    "product": "USB-C Hub",
+    "price": 64.57
+  },
+  {
+    "id": "TX-1345",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-02",
+    "product": "Laptop Stand",
+    "price": 27.2
+  },
+  {
+    "id": "TX-1346",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-01",
+    "product": "Bluetooth Adapter",
+    "price": 23.55
+  },
+  {
+    "id": "TX-1347",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-01",
+    "product": "Desk Mat",
+    "price": 30.87
+  },
+  {
+    "id": "TX-1348",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-01",
+    "product": "USB Flash Drive",
+    "price": 25.33
+  },
+  {
+    "id": "TX-1349",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-01",
+    "product": "Desk Mat",
+    "price": 18.77
+  },
+  {
+    "id": "TX-1350",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-01",
+    "product": "Bluetooth Adapter",
+    "price": 27.38
+  },
+  {
+    "id": "TX-1351",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2026-01-01",
+    "product": "HDMI Cable",
+    "price": 10.97
+  },
+  {
+    "id": "TX-1352",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-01",
+    "product": "USB-C Hub",
+    "price": 34.61
+  },
+  {
+    "id": "TX-1353",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-01",
+    "product": "Ergonomic Mouse",
+    "price": 74.65
+  },
+  {
+    "id": "TX-1354",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-01",
+    "product": "Laptop Cooling Pad",
+    "price": 46.59
+  },
+  {
+    "id": "TX-1355",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2026-01-01",
+    "product": "Portable SSD",
+    "price": 158.68
+  },
+  {
+    "id": "TX-1356",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2026-01-01",
+    "product": "Bluetooth Adapter",
+    "price": 26.25
+  },
+  {
+    "id": "TX-1357",
+    "customerId": "CUST-004",
+    "customerName": "Charlie Brown",
+    "date": "2026-01-01",
+    "product": "Laptop Stand",
+    "price": 35.31
+  },
+  {
+    "id": "TX-1358",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-31",
+    "product": "Wireless Headphones",
+    "price": 81.94
+  },
+  {
+    "id": "TX-1359",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-31",
+    "product": "Laptop Cooling Pad",
+    "price": 33.66
+  },
+  {
+    "id": "TX-1360",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-31",
+    "product": "Dual Monitor Mount",
+    "price": 109.08
+  },
+  {
+    "id": "TX-1361",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-31",
+    "product": "Desk Mat",
+    "price": 30.61
+  },
+  {
+    "id": "TX-1362",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-30",
+    "product": "Bluetooth Adapter",
+    "price": 20.59
+  },
+  {
+    "id": "TX-1363",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-30",
+    "product": "Mechanical Keyboard",
+    "price": 117.08
+  },
+  {
+    "id": "TX-1364",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-30",
+    "product": "Bluetooth Adapter",
+    "price": 23.21
+  },
+  {
+    "id": "TX-1365",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-30",
+    "product": "USB Flash Drive",
+    "price": 22.49
+  },
+  {
+    "id": "TX-1366",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-30",
+    "product": "Desk Mat",
+    "price": 23.67
+  },
+  {
+    "id": "TX-1367",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-29",
+    "product": "USB-C Hub",
+    "price": 42.14
+  },
+  {
+    "id": "TX-1368",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-29",
+    "product": "Ergonomic Mouse",
+    "price": 65.58
+  },
+  {
+    "id": "TX-1369",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-29",
+    "product": "Bluetooth Adapter",
+    "price": 17.76
+  },
+  {
+    "id": "TX-1370",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-29",
+    "product": "DisplayPort Cable",
+    "price": 21.7
+  },
+  {
+    "id": "TX-1371",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-29",
+    "product": "Bluetooth Adapter",
+    "price": 25.94
+  },
+  {
+    "id": "TX-1372",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-29",
+    "product": "Mechanical Keyboard",
+    "price": 95.15
+  },
+  {
+    "id": "TX-1373",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-29",
+    "product": "USB Flash Drive",
+    "price": 33.9
+  },
+  {
+    "id": "TX-1374",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-29",
+    "product": "USB-C Hub",
+    "price": 69.69
+  },
+  {
+    "id": "TX-1375",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-28",
+    "product": "USB Flash Drive",
+    "price": 30.55
+  },
+  {
+    "id": "TX-1376",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-28",
+    "product": "Bluetooth Adapter",
+    "price": 29.05
+  },
+  {
+    "id": "TX-1377",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-28",
+    "product": "HDMI Cable",
+    "price": 11.44
+  },
+  {
+    "id": "TX-1378",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-28",
+    "product": "USB Flash Drive",
+    "price": 27.88
+  },
+  {
+    "id": "TX-1379",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-28",
+    "product": "Laptop Stand",
+    "price": 35.61
+  },
+  {
+    "id": "TX-1380",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-27",
+    "product": "USB-C Hub",
+    "price": 35.38
+  },
+  {
+    "id": "TX-1381",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-27",
+    "product": "HDMI Cable",
+    "price": 19.73
+  },
+  {
+    "id": "TX-1382",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-27",
+    "product": "Web Camera",
+    "price": 92.04
+  },
+  {
+    "id": "TX-1383",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-27",
+    "product": "Portable SSD",
+    "price": 158.54
+  },
+  {
+    "id": "TX-1384",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-26",
+    "product": "Laptop Cooling Pad",
+    "price": 46.75
+  },
+  {
+    "id": "TX-1385",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-26",
+    "product": "DisplayPort Cable",
+    "price": 20.38
+  },
+  {
+    "id": "TX-1386",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-26",
+    "product": "Laptop Stand",
+    "price": 41.27
+  },
+  {
+    "id": "TX-1387",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-26",
+    "product": "Web Camera",
+    "price": 107.05
+  },
+  {
+    "id": "TX-1388",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-26",
+    "product": "USB-C Hub",
+    "price": 44.81
+  },
+  {
+    "id": "TX-1389",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-26",
+    "product": "HDMI Cable",
+    "price": 10.57
+  },
+  {
+    "id": "TX-1390",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-26",
+    "product": "USB Flash Drive",
+    "price": 15.48
+  },
+  {
+    "id": "TX-1391",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-26",
+    "product": "Laptop Stand",
+    "price": 38.11
+  },
+  {
+    "id": "TX-1392",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-26",
+    "product": "Ergonomic Mouse",
+    "price": 86.8
+  },
+  {
+    "id": "TX-1393",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-25",
+    "product": "Laptop Cooling Pad",
+    "price": 42.49
+  },
+  {
+    "id": "TX-1394",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-25",
+    "product": "Portable SSD",
+    "price": 145.85
+  },
+  {
+    "id": "TX-1395",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-25",
+    "product": "HDMI Cable",
+    "price": 21.16
+  },
+  {
+    "id": "TX-1396",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-25",
+    "product": "Web Camera",
+    "price": 71.43
+  },
+  {
+    "id": "TX-1397",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-24",
+    "product": "HDMI Cable",
+    "price": 19.1
+  },
+  {
+    "id": "TX-1398",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-24",
+    "product": "DisplayPort Cable",
+    "price": 25.08
+  },
+  {
+    "id": "TX-1399",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-24",
+    "product": "Wireless Headphones",
+    "price": 76.59
+  },
+  {
+    "id": "TX-1400",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-24",
+    "product": "Mechanical Keyboard",
+    "price": 138.04
+  },
+  {
+    "id": "TX-1401",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-23",
+    "product": "Laptop Stand",
+    "price": 26.71
+  },
+  {
+    "id": "TX-1402",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-23",
+    "product": "HDMI Cable",
+    "price": 17.83
+  },
+  {
+    "id": "TX-1403",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-23",
+    "product": "DisplayPort Cable",
+    "price": 16.29
+  },
+  {
+    "id": "TX-1404",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-23",
+    "product": "HDMI Cable",
+    "price": 20.6
+  },
+  {
+    "id": "TX-1405",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-23",
+    "product": "Ergonomic Mouse",
+    "price": 56.51
+  },
+  {
+    "id": "TX-1406",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-23",
+    "product": "USB-C Hub",
+    "price": 78.92
+  },
+  {
+    "id": "TX-1407",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-23",
+    "product": "Wireless Headphones",
+    "price": 139.91
+  },
+  {
+    "id": "TX-1408",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-23",
+    "product": "Laptop Cooling Pad",
+    "price": 33.79
+  },
+  {
+    "id": "TX-1409",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-22",
+    "product": "Mechanical Keyboard",
+    "price": 146.4
+  },
+  {
+    "id": "TX-1410",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-22",
+    "product": "Mechanical Keyboard",
+    "price": 102.51
+  },
+  {
+    "id": "TX-1411",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-22",
+    "product": "Wireless Headphones",
+    "price": 120.39
+  },
+  {
+    "id": "TX-1412",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-22",
+    "product": "Desk Mat",
+    "price": 24
+  },
+  {
+    "id": "TX-1413",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-21",
+    "product": "Wireless Headphones",
+    "price": 65.23
+  },
+  {
+    "id": "TX-1414",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-21",
+    "product": "Desk Mat",
+    "price": 35.05
+  },
+  {
+    "id": "TX-1415",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-20",
+    "product": "HDMI Cable",
+    "price": 22.35
+  },
+  {
+    "id": "TX-1416",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-20",
+    "product": "Mechanical Keyboard",
+    "price": 97.96
+  },
+  {
+    "id": "TX-1417",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-20",
+    "product": "Web Camera",
+    "price": 50.77
+  },
+  {
+    "id": "TX-1418",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-20",
+    "product": "DisplayPort Cable",
+    "price": 14
+  },
+  {
+    "id": "TX-1419",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-19",
+    "product": "Desk Mat",
+    "price": 23.95
+  },
+  {
+    "id": "TX-1420",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-19",
+    "product": "USB-C Hub",
+    "price": 57.63
+  },
+  {
+    "id": "TX-1421",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-19",
+    "product": "USB-C Hub",
+    "price": 45.59
+  },
+  {
+    "id": "TX-1422",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-19",
+    "product": "Bluetooth Adapter",
+    "price": 20.97
+  },
+  {
+    "id": "TX-1423",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-19",
+    "product": "Ergonomic Mouse",
+    "price": 58.73
+  },
+  {
+    "id": "TX-1424",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-19",
+    "product": "Portable SSD",
+    "price": 199.57
+  },
+  {
+    "id": "TX-1425",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-18",
+    "product": "USB-C Hub",
+    "price": 68.85
+  },
+  {
+    "id": "TX-1426",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-18",
+    "product": "Desk Mat",
+    "price": 30.36
+  },
+  {
+    "id": "TX-1427",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-18",
+    "product": "Laptop Cooling Pad",
+    "price": 49.32
+  },
+  {
+    "id": "TX-1428",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-17",
+    "product": "Desk Mat",
+    "price": 37.46
+  },
+  {
+    "id": "TX-1429",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-17",
+    "product": "Web Camera",
+    "price": 50.63
+  },
+  {
+    "id": "TX-1430",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-17",
+    "product": "Wireless Headphones",
+    "price": 112.8
+  },
+  {
+    "id": "TX-1431",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-17",
+    "product": "USB-C Hub",
+    "price": 61.04
+  },
+  {
+    "id": "TX-1432",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-17",
+    "product": "Mechanical Keyboard",
+    "price": 119.78
+  },
+  {
+    "id": "TX-1433",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-17",
+    "product": "Portable SSD",
+    "price": 187.75
+  },
+  {
+    "id": "TX-1434",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-16",
+    "product": "Laptop Cooling Pad",
+    "price": 22.04
+  },
+  {
+    "id": "TX-1435",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-16",
+    "product": "Wireless Headphones",
+    "price": 67.11
+  },
+  {
+    "id": "TX-1436",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-16",
+    "product": "Laptop Stand",
+    "price": 38.36
+  },
+  {
+    "id": "TX-1437",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-16",
+    "product": "USB-C Hub",
+    "price": 55.69
+  },
+  {
+    "id": "TX-1438",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-16",
+    "product": "Bluetooth Adapter",
+    "price": 18.16
+  },
+  {
+    "id": "TX-1439",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-16",
+    "product": "Desk Mat",
+    "price": 23.12
+  },
+  {
+    "id": "TX-1440",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-15",
+    "product": "Wireless Headphones",
+    "price": 85.5
+  },
+  {
+    "id": "TX-1441",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-15",
+    "product": "Ergonomic Mouse",
+    "price": 58.56
+  },
+  {
+    "id": "TX-1442",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-15",
+    "product": "USB Flash Drive",
+    "price": 8.99
+  },
+  {
+    "id": "TX-1443",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-15",
+    "product": "Web Camera",
+    "price": 119.08
+  },
+  {
+    "id": "TX-1444",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-14",
+    "product": "HDMI Cable",
+    "price": 21.58
+  },
+  {
+    "id": "TX-1445",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-14",
+    "product": "Laptop Cooling Pad",
+    "price": 49.87
+  },
+  {
+    "id": "TX-1446",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-14",
+    "product": "Laptop Cooling Pad",
+    "price": 42.1
+  },
+  {
+    "id": "TX-1447",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-13",
+    "product": "Bluetooth Adapter",
+    "price": 29.58
+  },
+  {
+    "id": "TX-1448",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-13",
+    "product": "USB-C Hub",
+    "price": 31.9
+  },
+  {
+    "id": "TX-1449",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-13",
+    "product": "Desk Mat",
+    "price": 18.8
+  },
+  {
+    "id": "TX-1450",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-13",
+    "product": "Laptop Stand",
+    "price": 41.9
+  },
+  {
+    "id": "TX-1451",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-13",
+    "product": "Mechanical Keyboard",
+    "price": 85.35
+  },
+  {
+    "id": "TX-1452",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-13",
+    "product": "Laptop Stand",
+    "price": 37.67
+  },
+  {
+    "id": "TX-1453",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-12",
+    "product": "Web Camera",
+    "price": 102.65
+  },
+  {
+    "id": "TX-1454",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-12",
+    "product": "USB Flash Drive",
+    "price": 22.2
+  },
+  {
+    "id": "TX-1455",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-12",
+    "product": "Dual Monitor Mount",
+    "price": 128.51
+  },
+  {
+    "id": "TX-1456",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-12",
+    "product": "HDMI Cable",
+    "price": 16.83
+  },
+  {
+    "id": "TX-1457",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-12",
+    "product": "Laptop Cooling Pad",
+    "price": 28.14
+  },
+  {
+    "id": "TX-1458",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-12",
+    "product": "Dual Monitor Mount",
+    "price": 91.58
+  },
+  {
+    "id": "TX-1459",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-11",
+    "product": "Laptop Cooling Pad",
+    "price": 47.51
+  },
+  {
+    "id": "TX-1460",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-11",
+    "product": "Web Camera",
+    "price": 92.87
+  },
+  {
+    "id": "TX-1461",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-11",
+    "product": "Ergonomic Mouse",
+    "price": 76.49
+  },
+  {
+    "id": "TX-1462",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-11",
+    "product": "Bluetooth Adapter",
+    "price": 21.04
+  },
+  {
+    "id": "TX-1463",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-11",
+    "product": "DisplayPort Cable",
+    "price": 19.62
+  },
+  {
+    "id": "TX-1464",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-11",
+    "product": "HDMI Cable",
+    "price": 22.96
+  },
+  {
+    "id": "TX-1465",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-11",
+    "product": "Desk Mat",
+    "price": 22.4
+  },
+  {
+    "id": "TX-1466",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-10",
+    "product": "Laptop Cooling Pad",
+    "price": 27.44
+  },
+  {
+    "id": "TX-1467",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-10",
+    "product": "Dual Monitor Mount",
+    "price": 116.42
+  },
+  {
+    "id": "TX-1468",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-10",
+    "product": "Desk Mat",
+    "price": 31.94
+  },
+  {
+    "id": "TX-1469",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-10",
+    "product": "Desk Mat",
+    "price": 17.06
+  },
+  {
+    "id": "TX-1470",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-10",
+    "product": "Dual Monitor Mount",
+    "price": 76.74
+  },
+  {
+    "id": "TX-1471",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-10",
+    "product": "Laptop Stand",
+    "price": 32.15
+  },
+  {
+    "id": "TX-1472",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-10",
+    "product": "Laptop Stand",
+    "price": 57.48
+  },
+  {
+    "id": "TX-1473",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-10",
+    "product": "Bluetooth Adapter",
+    "price": 18.23
+  },
+  {
+    "id": "TX-1474",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-09",
+    "product": "Dual Monitor Mount",
+    "price": 76.44
+  },
+  {
+    "id": "TX-1475",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-09",
+    "product": "Laptop Stand",
+    "price": 59.17
+  },
+  {
+    "id": "TX-1476",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-09",
+    "product": "Wireless Headphones",
+    "price": 174.63
+  },
+  {
+    "id": "TX-1477",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-09",
+    "product": "Dual Monitor Mount",
+    "price": 71.37
+  },
+  {
+    "id": "TX-1478",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-09",
+    "product": "Portable SSD",
+    "price": 85.86
+  },
+  {
+    "id": "TX-1479",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-08",
+    "product": "Portable SSD",
+    "price": 118.9
+  },
+  {
+    "id": "TX-1480",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-07",
+    "product": "Portable SSD",
+    "price": 89.53
+  },
+  {
+    "id": "TX-1481",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-07",
+    "product": "Mechanical Keyboard",
+    "price": 112.31
+  },
+  {
+    "id": "TX-1482",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-07",
+    "product": "Laptop Stand",
+    "price": 53.19
+  },
+  {
+    "id": "TX-1483",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-07",
+    "product": "Laptop Stand",
+    "price": 28.45
+  },
+  {
+    "id": "TX-1484",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-06",
+    "product": "Laptop Cooling Pad",
+    "price": 37.32
+  },
+  {
+    "id": "TX-1485",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-06",
+    "product": "Bluetooth Adapter",
+    "price": 22.05
+  },
+  {
+    "id": "TX-1486",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-06",
+    "product": "Desk Mat",
+    "price": 15.82
+  },
+  {
+    "id": "TX-1487",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-05",
+    "product": "Wireless Headphones",
+    "price": 57.14
+  },
+  {
+    "id": "TX-1488",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-05",
+    "product": "Web Camera",
+    "price": 70.58
+  },
+  {
+    "id": "TX-1489",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-05",
+    "product": "Web Camera",
+    "price": 79.87
+  },
+  {
+    "id": "TX-1490",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-05",
+    "product": "Ergonomic Mouse",
+    "price": 48.43
+  },
+  {
+    "id": "TX-1491",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-04",
+    "product": "Laptop Cooling Pad",
+    "price": 49.67
+  },
+  {
+    "id": "TX-1492",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-04",
+    "product": "Portable SSD",
+    "price": 90.11
+  },
+  {
+    "id": "TX-1493",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-04",
+    "product": "USB Flash Drive",
+    "price": 20.68
+  },
+  {
+    "id": "TX-1494",
+    "customerId": "CUST-005",
+    "customerName": "David Miller",
+    "date": "2025-12-04",
+    "product": "USB-C Hub",
+    "price": 49.1
+  },
+  {
+    "id": "TX-1495",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-04",
+    "product": "USB Flash Drive",
+    "price": 32.31
+  },
+  {
+    "id": "TX-1496",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-03",
+    "product": "Ergonomic Mouse",
+    "price": 57.05
+  },
+  {
+    "id": "TX-1497",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-03",
+    "product": "Ergonomic Mouse",
+    "price": 47.02
+  },
+  {
+    "id": "TX-1498",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-02",
+    "product": "Laptop Cooling Pad",
+    "price": 35.14
+  },
+  {
+    "id": "TX-1499",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-02",
+    "product": "Dual Monitor Mount",
+    "price": 108.11
+  },
+  {
+    "id": "TX-1500",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-02",
+    "product": "Web Camera",
+    "price": 97.47
+  },
+  {
+    "id": "TX-1501",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-02",
+    "product": "Mechanical Keyboard",
+    "price": 135.2
+  },
+  {
+    "id": "TX-1502",
+    "customerId": "CUST-002",
+    "customerName": "Alice Smith",
+    "date": "2025-12-02",
+    "product": "Desk Mat",
+    "price": 25.58
+  },
+  {
+    "id": "TX-1503",
+    "customerId": "CUST-001",
+    "customerName": "John Doe",
+    "date": "2025-12-02",
+    "product": "Dual Monitor Mount",
+    "price": 98.14
+  },
+  {
+    "id": "TX-1504",
+    "customerId": "CUST-003",
+    "customerName": "Bob Johnson",
+    "date": "2025-12-01",
+    "product": "DisplayPort Cable",
+    "price": 25.35
+  }
+]

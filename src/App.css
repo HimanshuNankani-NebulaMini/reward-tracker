@@ -1,0 +1,26 @@
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.app-main {
+  flex: 1;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  margin-top: 4rem;
+  border-top: 0.0625rem solid rgba(255, 255, 255, 0.05);
+}
+
+.app-footer p {
+  color: #64748b;
+  font-size: 0.85rem;
+  font-family: 'Inter', sans-serif;
+}
