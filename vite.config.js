@@ -8,7 +8,9 @@ export default defineConfig({
       name: 'treat-js-files-as-jsx',
       enforce: 'pre',
       async transform(code, id) {
-        if (!id.match(/src\/.*\.js$/)) return null
+        if (!id.match(/src\/.*\.js$/)) {
+          return null
+        }
 
         // Use Vite's OXC transform utility to parse .js files as JSX
         return transformWithOxc(code, id, {

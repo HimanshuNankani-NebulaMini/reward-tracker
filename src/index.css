@@ -21,3 +21,192 @@ body {
   overflow-x: hidden;
   background-color: #090b14;
 }
+
+.app-theme-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle at 10% 20%, rgba(17, 24, 39, 1) 0%, rgba(9, 11, 20, 1) 90%);
+  background-attachment: fixed;
+  color: #f8fafc;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.4);
+}
+
+/* Smooth entry animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0.625rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.table-card {
+  animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.dashboard-full-width .table-card {
+  animation-delay: 0.1s;
+}
+
+.dashboard-side-by-side .table-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.dashboard-side-by-side .table-card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+/* Light theme overrides */
+.light-theme {
+  background: radial-gradient(circle at 10% 20%, #faf8f5 0%, #e8dfd2 100%);
+  color: #2d251e;
+}
+
+.light-theme .header-title {
+  background: linear-gradient(135deg, #1c1209 30%, #4f46e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-theme .header-subtitle {
+  color: #5c4d3c;
+}
+
+.light-theme .table-card,
+.light-theme .filter-bar-card {
+  background: rgba(255, 253, 250, 0.75);
+  backdrop-filter: blur(1rem);
+  border-color: rgba(90, 75, 60, 0.12);
+  box-shadow: 0 0.5rem 2rem 0 rgba(90, 75, 60, 0.05);
+}
+
+.light-theme .table-card:hover,
+.light-theme .filter-bar-card:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 0.75rem 2.5rem 0 rgba(99, 102, 241, 0.08);
+}
+
+.light-theme .table-card-title,
+.light-theme .filter-label {
+  color: #1c1209;
+}
+
+.light-theme .rewards-table th {
+  color: #5c4d3c;
+  border-bottom-color: rgba(90, 75, 60, 0.15);
+}
+
+.light-theme .rewards-table td {
+  color: #2d251e;
+  border-bottom-color: rgba(90, 75, 60, 0.08);
+}
+
+.light-theme .rewards-table tr:hover td {
+  background: rgba(99, 102, 241, 0.04);
+  color: #1c1209;
+}
+
+.light-theme .product-name {
+  color: #4a3e3d;
+}
+
+.light-theme .filter-search,
+.light-theme .filter-text-input,
+.light-theme .filter-date-input,
+.light-theme .filter-select,
+.light-theme .page-size-select {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(90, 75, 60, 0.15);
+  color: #2d251e;
+}
+
+.light-theme .filter-date-input.is-empty::before {
+  color: #a39485;
+}
+
+.light-theme .filter-search::placeholder {
+  color: #a39485;
+}
+
+.light-theme .filter-search:focus,
+.light-theme .filter-text-input:focus,
+.light-theme .filter-date-input:focus,
+.light-theme .filter-select:focus,
+.light-theme .page-size-select:focus {
+  border-color: rgba(99, 102, 241, 0.6);
+  background: #ffffff;
+}
+
+.light-theme .filter-select option,
+.light-theme .page-size-select option {
+  background: #ffffff;
+  color: #2d251e;
+}
+
+.light-theme .filter-clear-btn {
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #dc2626;
+  background: transparent;
+}
+
+.light-theme .filter-clear-btn:hover {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: #ef4444;
+}
+
+.light-theme .pagination-btn {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: rgba(90, 75, 60, 0.12);
+  color: #4a3e3d;
+}
+
+.light-theme .pagination-btn:hover:not(:disabled) {
+  background: rgba(99, 102, 241, 0.15);
+  color: #4f46e5;
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+.light-theme .pagination-btn.active {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.light-theme .pagination-btn:disabled {
+  color: #a39485;
+  border-color: rgba(90, 75, 60, 0.05);
+  background: transparent;
+}
+
+.light-theme .theme-toggle-container {
+  background: rgba(255, 253, 250, 0.8);
+  border-color: rgba(90, 75, 60, 0.15);
+}
+
+.light-theme .theme-toggle-container:hover {
+  background: #ffffff;
+  border-color: rgba(99, 102, 241, 0.4);
+}

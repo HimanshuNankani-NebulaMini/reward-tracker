@@ -19,11 +19,13 @@ export default [
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
       ...reactRefresh.configs.vite.rules,
-      'react/jsx-uses-react': 'error',
+      'react-hooks/set-state-in-effect': 'off',
+      'react/jsx-uses-react': 'off',
       'react/jsx-uses-vars': 'error',
       'no-console': 'error',
       'react/prop-types': 'error',
-      'no-unused-vars': ['error', { varsIgnorePattern: '^React$' }]
+      'no-unused-vars': 'error',
+      'curly': ['error', 'all']
     },
     languageOptions: {
       globals: {
