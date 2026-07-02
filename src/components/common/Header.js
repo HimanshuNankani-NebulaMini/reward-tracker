@@ -1,6 +1,11 @@
-import React from 'react';
+import { memo } from 'react';
 import './Header.css';
 
+/**
+ * Header component displaying the application title and brief subtitle.
+ *
+ * @returns {React.ReactElement} The header element layout
+ */
 const Header = () => {
   return (
     <header className="app-header">
@@ -14,4 +19,4 @@ const Header = () => {
 
 Header.displayName = 'Header';
 
-export default React.memo(Header);
+export default memo(Header);

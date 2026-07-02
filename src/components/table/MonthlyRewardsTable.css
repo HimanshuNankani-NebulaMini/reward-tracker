@@ -1,0 +1,9 @@
+/* Styles inherited from shared layout but adding customized visual tweaks for monthly breakdown */
+.month {
+  color: #f1f5f9;
+  font-weight: 500;
+}
+
+.year {
+  color: #94a3b8;
+}
