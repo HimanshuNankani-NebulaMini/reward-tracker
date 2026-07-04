@@ -81,16 +81,15 @@ const TransactionsTable = ({ transactions }) => {
    * @param {string} key - Column parameter key
    */
   const handleSort = useCallback((key) => {
-    setSortKey((prevKey) => {
-      if (prevKey === key) {
-        setSortDirection((prevDir) => (prevDir === 'asc' ? 'desc' : 'asc'));
-      } else {
-        setSortDirection(key === 'date' || key === 'points' || key === 'price' ? 'desc' : 'asc');
+    setSortDirection((prevDir) => {
+      if (sortKey === key) {
+        return prevDir === 'asc' ? 'desc' : 'asc';
       }
-      return key;
+      return key === 'date' || key === 'points' || key === 'price' ? 'desc' : 'asc';
     });
+    setSortKey(key);
     setCurrentPage(1);
-  }, []);
+  }, [sortKey]);
 
   /**
    * Sorts the main transaction records according to column key and direction.
