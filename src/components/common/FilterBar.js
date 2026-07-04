@@ -146,7 +146,7 @@ const FilterBar = ({
           <input
             id="start-date-input"
             type="date"
-            max={todayStr}
+            max={localEndDate || todayStr}
             className={`filter-date-input ${!localStartDate ? 'is-empty' : ''}`}
             value={localStartDate}
             onChange={(e) => setLocalStartDate(e.target.value)}
@@ -161,6 +161,7 @@ const FilterBar = ({
           <input
             id="end-date-input"
             type="date"
+            min={localStartDate || ''}
             max={todayStr}
             className={`filter-date-input ${!localEndDate ? 'is-empty' : ''}`}
             value={localEndDate}
