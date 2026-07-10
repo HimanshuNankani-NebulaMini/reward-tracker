@@ -112,9 +112,9 @@ To handle datasets efficiently while keeping the interface clean and premium, th
    * **Conditional Apply Button Visibility**: The Apply button is hidden by default and is only shown when a filter condition (search query, start date, or end date) has been entered.
    * **Search Input**: Case-insensitive text search matching the **Transaction ID**, **Customer ID**, **Customer Name**, and **Product Name**.
    * **Date Range Selector**: Custom date range filter (`From` and `To` dates) allowing users to filter by any arbitrary timeframe.
-   * **Conditional Recalculations**:
-     * **Customer Filters**: Searching for a customer name (e.g. `"John"`) or a customer ID (e.g. `"CUST-001"`) filters **all three tables** (Transactions Ledger, Monthly Rewards Summary, and Total Rewards) to display only that customer's summaries.
-     * **Product, ID, & Date Filters**: Searching by products, transaction IDs, or choosing a date range filters **only the Transactions Ledger**. The Monthly Rewards Summary and Total Rewards tables remain in a fixed state representing the entire dataset (or the customer's full dataset if a customer filter is active).
+   * **Unified Filtering & Dynamic Titles**:
+     * Applying search terms or date ranges filters **all three tables** (Transactions Ledger, Monthly Rewards Summary, and Total Rewards) simultaneously. This maintains consistent data views and matching calculations across the entire dashboard view.
+     * **Dynamic Titles**: To keep historical lifetime total context clear for the user, the summary cards dynamically append `"(For Selected Period)"` when date range filters are active, and `"(Filtered)"` when only text search queries are active.
 3. **Interactive Column Sorting**:
    * **Transactions Ledger**: Every column header is clickable to trigger sorting. Clicking a header toggles between ascending (`▲`) and descending (`▼`) sorting directions, with inactive columns showing (`↕`). Changing the sort key resets the active pagination page to `1`.
    * **Monthly Summary Sorting**: Monthly reward summaries are sorted by **Customer Name** (alphabetically ascending), then **Year** (chronologically ascending), and then **Month** (chronologically ascending).

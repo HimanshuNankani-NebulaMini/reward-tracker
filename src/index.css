@@ -151,6 +151,22 @@ body {
   color: #a39485;
 }
 
+.light-theme .filter-date-input::-webkit-datetime-edit-year-field,
+.light-theme .filter-date-input::-webkit-datetime-edit-month-field,
+.light-theme .filter-date-input::-webkit-datetime-edit-day-field,
+.light-theme .filter-date-input::-webkit-datetime-edit-text {
+  color: #2d251e;
+  -webkit-text-fill-color: #2d251e;
+}
+
+.light-theme .filter-date-input.is-empty::-webkit-datetime-edit-year-field,
+.light-theme .filter-date-input.is-empty::-webkit-datetime-edit-month-field,
+.light-theme .filter-date-input.is-empty::-webkit-datetime-edit-day-field,
+.light-theme .filter-date-input.is-empty::-webkit-datetime-edit-text {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 .light-theme .filter-search:focus,
 .light-theme .filter-text-input:focus,
 .light-theme .filter-date-input:focus,

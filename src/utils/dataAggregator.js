@@ -1,6 +1,7 @@
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import { calculatePoints } from './pointsCalculator';
+import { logger } from './logger';
 
 dayjs.extend(customParseFormat);
 
@@ -14,31 +15,13 @@ export const getDateParts = (dateString) => {
     throw new Error('Date string is missing or invalid');
   }
 
-  const parts = dateString.split('-');
-  if (parts.length < 3) {
-    throw new Error(`Invalid date format: ${dateString}`);
-  }
-
-  const yearNum = parseInt(parts[0], 10);
-  const monthNum = parseInt(parts[1], 10);
-  const dayNum = parseInt(parts[2], 10);
-
-  if (isNaN(yearNum) || isNaN(monthNum) || isNaN(dayNum)) {
-    throw new Error(`Invalid date format: ${dateString}`);
-  }
-
-  if (monthNum < 1 || monthNum > 12) {
-    throw new Error(`Invalid date components: ${dateString}`);
-  }
-
   const parsed = dayjs(dateString, 'YYYY-MM-DD', true);
   if (!parsed.isValid()) {
-    throw new Error(`Invalid date components: ${dateString}`);
+    throw new Error(`Invalid date format: ${dateString}`);
   }
 
   const year = parsed.year();
-  const month = parsed.month() + 1;
-  const monthIndex = month - 1;
+  const monthIndex = parsed.month();
   const monthNames = [
     'January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'
@@ -82,13 +65,20 @@ export const enrichTransactionsWithPoints = (transactions) => {
   if (!Array.isArray(transactions)) {
     throw new Error('Transactions input must be a valid array');
   }
-  return transactions.map((transaction) => {
-    validateTransaction(transaction);
-    return {
+  return transactions
+    .filter((transaction) => {
+      try {
+        validateTransaction(transaction);
+        return true;
+      } catch (err) {
+        logger.warn(`Skipping invalid transaction record: ${err.message}`, transaction);
+        return false;
+      }
+    })
+    .map((transaction) => ({
       ...transaction,
       points: calculatePoints(transaction.price)
-    };
-  });
+    }));
 };
 
 /**
@@ -103,14 +93,13 @@ export const aggregateMonthlyRewards = (transactions) => {
     throw new Error('Transactions input must be a valid array');
   }
 
-  const grouped = {};
-  transactions.map((transaction) => {
+  const grouped = transactions.reduce((acc, transaction) => {
     const { customerId, customerName, date, points } = transaction;
     const { monthName, monthIndex, year } = getDateParts(date);
     const key = `${customerId}-${year}-${monthIndex}`;
     
-    if (!grouped[key]) {
-      grouped[key] = {
+    if (!acc[key]) {
+      acc[key] = {
         customerId,
         name: customerName,
         monthName,
@@ -119,9 +108,9 @@ export const aggregateMonthlyRewards = (transactions) => {
         points: 0
       };
     }
-    grouped[key].points += points;
-    return transaction;
-  });
+    acc[key].points += points;
+    return acc;
+  }, {});
 
   return Object.values(grouped);
 };
@@ -138,21 +127,20 @@ export const aggregateTotalRewards = (transactions) => {
     throw new Error('Transactions input must be a valid array');
   }
 
-  const grouped = {};
-  transactions.map((transaction) => {
+  const grouped = transactions.reduce((acc, transaction) => {
     const { customerId, customerName, points } = transaction;
     const key = customerId;
 
-    if (!grouped[key]) {
-      grouped[key] = {
+    if (!acc[key]) {
+      acc[key] = {
         customerId,
         name: customerName,
         points: 0
       };
     }
-    grouped[key].points += points;
-    return transaction;
-  });
+    acc[key].points += points;
+    return acc;
+  }, {});
 
   return Object.values(grouped);
 };

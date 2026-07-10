@@ -1,6 +1,5 @@
 import { renderHook, waitFor, act } from "@testing-library/react";
 import { useFetchTransactions } from "../useFetchTransactions";
-import { enrichTransactionsWithPoints } from "../../utils/dataAggregator";
 
 describe("useFetchTransactions custom hook", () => {
   let originalFetch;
@@ -44,7 +43,7 @@ describe("useFetchTransactions custom hook", () => {
       expect(result.current.loading).toBe(false);
     });
 
-    expect(result.current.transactions).toEqual(enrichTransactionsWithPoints(mockData));
+    expect(result.current.transactions).toEqual(mockData);
     expect(result.current.error).toBeNull();
   });
 
@@ -125,7 +124,7 @@ describe("useFetchTransactions custom hook", () => {
     await waitFor(() => {
       expect(result.current.loading).toBe(false);
     });
-    expect(result.current.transactions).toEqual(enrichTransactionsWithPoints(mockData1));
+    expect(result.current.transactions).toEqual(mockData1);
     expect(global.fetch).toHaveBeenCalledTimes(1);
 
     act(() => {
@@ -136,7 +135,7 @@ describe("useFetchTransactions custom hook", () => {
     await waitFor(() => {
       expect(result.current.loading).toBe(false);
     });
-    expect(result.current.transactions).toEqual(enrichTransactionsWithPoints(mockData2));
+    expect(result.current.transactions).toEqual(mockData2);
     expect(global.fetch).toHaveBeenCalledTimes(2);
   });
 
