@@ -7,12 +7,13 @@ import './TotalRewardsTable.css';
  *
  * @param {object} props - Component properties
  * @param {Array<object>} props.totalRewards - The list of aggregated customer cumulative reward summaries
+ * @param {string} [props.title] - Optional custom card title
  * @returns {React.ReactElement} The total rewards table element
  */
-const TotalRewardsTable = ({ totalRewards }) => {
+const TotalRewardsTable = ({ totalRewards, title = 'Total Rewards' }) => {
   return (
     <div className="table-card" data-testid="total-rewards-card">
-      <h2 className="table-card-title">Total Rewards</h2>
+      <h2 className="table-card-title">{title}</h2>
       <div className="table-responsive">
         <table className="rewards-table">
           <thead>
@@ -52,7 +53,8 @@ TotalRewardsTable.propTypes = {
       name: PropTypes.string.isRequired,
       points: PropTypes.number.isRequired
     })
-  ).isRequired
+  ).isRequired,
+  title: PropTypes.string
 };
 
 TotalRewardsTable.displayName = 'TotalRewardsTable';

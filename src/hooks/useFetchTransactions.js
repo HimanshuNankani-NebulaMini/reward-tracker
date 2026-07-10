@@ -1,12 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 import { logger } from '../utils/logger';
-import { enrichTransactionsWithPoints } from '../utils/dataAggregator';
 
 /**
- * Custom React hook to fetch transaction logs asynchronously and enrich them with reward points.
+ * Custom React hook to fetch transaction logs asynchronously.
  *
  * @returns {object} The fetch state query results
- * @returns {Array<object>} returns.transactions - Enriched transaction records
+ * @returns {Array<object>} returns.transactions - Raw transaction records
  * @returns {boolean} returns.loading - Loading state flag
  * @returns {Error|null} returns.error - Error details if failed, otherwise null
  * @returns {func} returns.refetch - Callback to retry the fetch request
@@ -18,14 +17,15 @@ export const useFetchTransactions = () => {
     error: null
   });
 
-  const [fetchTrigger, setFetchTrigger] = useState(0);
-
-  useEffect(() => {
-    const abortController = new AbortController();
-
+  /**
+   * Performs the async HTTP request to retrieve raw transactions ledger.
+   * @param {AbortSignal} [signal] - Optional abort signal
+   */
+  const fetchData = useCallback((signal) => {
+    setState((prev) => ({ ...prev, loading: true, error: null }));
     logger.info('Initiating async fetch for transactions data...');
 
-    fetch('/transactions.json', { signal: abortController.signal })
+    fetch('/transactions.json', { signal })
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Failed to fetch transactions (HTTP ${response.status})`);
@@ -34,9 +34,8 @@ export const useFetchTransactions = () => {
       })
       .then((data) => {
         logger.info('Transactions data fetched successfully.', { count: data.length });
-        const enriched = enrichTransactionsWithPoints(data);
         setState({
-          transactions: enriched,
+          transactions: data,
           loading: false,
           error: null
         });
@@ -54,20 +53,24 @@ export const useFetchTransactions = () => {
           error: new Error(`An unexpected error occurred while loading data.${details}`)
         });
       });
+  }, []);
+
+  useEffect(() => {
+    const abortController = new AbortController();
+    fetchData(abortController.signal);
 
     return () => {
       logger.info('Unmounting useFetchTransactions or refetching, aborting active request.');
       abortController.abort();
     };
-  }, [fetchTrigger]);
+  }, [fetchData]);
 
   /**
    * Resets the fetching states and triggers a new data load.
    */
   const refetch = useCallback(() => {
-    setState((prev) => ({ ...prev, loading: true, error: null }));
-    setFetchTrigger((prev) => prev + 1);
-  }, []);
+    fetchData();
+  }, [fetchData]);
 
   return {
     transactions: state.transactions,
