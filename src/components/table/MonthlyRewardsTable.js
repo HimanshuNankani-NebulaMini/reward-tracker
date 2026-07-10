@@ -7,12 +7,13 @@ import './MonthlyRewardsTable.css';
  *
  * @param {object} props - Component properties
  * @param {Array<object>} props.monthlyRewards - The list of aggregated monthly reward summaries
+ * @param {string} [props.title] - Optional custom card title
  * @returns {React.ReactElement} The monthly rewards table element
  */
-const MonthlyRewardsTable = ({ monthlyRewards }) => {
+const MonthlyRewardsTable = ({ monthlyRewards, title = 'Monthly Rewards Summary' }) => {
   return (
     <div className="table-card" data-testid="monthly-rewards-card">
-      <h2 className="table-card-title">Monthly Rewards Summary</h2>
+      <h2 className="table-card-title">{title}</h2>
       <div className="table-responsive">
         <table className="rewards-table">
           <thead>
@@ -61,7 +62,8 @@ MonthlyRewardsTable.propTypes = {
       year: PropTypes.number.isRequired,
       points: PropTypes.number.isRequired
     })
-  ).isRequired
+  ).isRequired,
+  title: PropTypes.string
 };
 
 MonthlyRewardsTable.displayName = 'MonthlyRewardsTable';

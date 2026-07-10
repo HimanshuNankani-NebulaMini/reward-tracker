@@ -3,6 +3,7 @@ import dayjs from "dayjs";
 import FilterBar from "../common/FilterBar";
 import LoadingSpinner from "../common/LoadingSpinner";
 import {
+  enrichTransactionsWithPoints,
   aggregateMonthlyRewards,
   aggregateTotalRewards,
   sortTransactionsByDate,
@@ -62,13 +63,21 @@ function DashboardContent({ transactions }) {
   }, []);
 
   /**
+   * Enriches transaction records by injecting computed reward points at the presentation level.
+   * @type {Array<object>}
+   */
+  const enrichedTransactions = useMemo(() => {
+    return enrichTransactionsWithPoints(transactions);
+  }, [transactions]);
+
+  /**
    * Master transaction list filtered by search text and date limits.
    * @type {Array<object>}
    */
   const filteredTransactions = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
 
-    return transactions.filter((transaction) => {
+    return enrichedTransactions.filter((transaction) => {
       const matchesSearch =
         query === "" ||
         transaction?.customerName?.toLowerCase()?.includes(query) ||
@@ -84,44 +93,25 @@ function DashboardContent({ transactions }) {
 
       return matchesSearch && matchesStart && matchesEnd;
     });
-  }, [transactions, searchQuery, startDate, endDate]);
-
-  /**
-   * Transaction list filtered by search text query for customer name/ID matching.
-   * @type {Array<object>}
-   */
-  const summaryFilteredTransactions = useMemo(() => {
-    const query = searchQuery.trim().toLowerCase();
-    if (query === "") {
-      return transactions;
-    }
-
-    const matches = transactions.filter(
-      (transaction) =>
-        transaction?.customerName?.toLowerCase()?.includes(query) ||
-        transaction?.customerId?.toLowerCase()?.includes(query),
-    );
-
-    return matches.length > 0 ? matches : transactions;
-  }, [transactions, searchQuery]);
+  }, [enrichedTransactions, searchQuery, startDate, endDate]);
 
   /**
    * Aggregated customer rewards points by month and year.
    * @type {Array<object>}
    */
   const monthlyRewards = useMemo(() => {
-    const aggregated = aggregateMonthlyRewards(summaryFilteredTransactions);
+    const aggregated = aggregateMonthlyRewards(filteredTransactions);
     return sortMonthlyRewards(aggregated);
-  }, [summaryFilteredTransactions]);
+  }, [filteredTransactions]);
 
   /**
    * Aggregated cumulative points earned by each customer.
    * @type {Array<object>}
    */
   const totalRewards = useMemo(() => {
-    const aggregated = aggregateTotalRewards(summaryFilteredTransactions);
+    const aggregated = aggregateTotalRewards(filteredTransactions);
     return [...aggregated].sort((a, b) => a.name.localeCompare(b.name));
-  }, [summaryFilteredTransactions]);
+  }, [filteredTransactions]);
 
   /**
    * Chronologically sorted transactions ledger records.
@@ -130,6 +120,20 @@ function DashboardContent({ transactions }) {
   const sortedTransactions = useMemo(() => {
     return sortTransactionsByDate(filteredTransactions);
   }, [filteredTransactions]);
+
+  const hasDateFilter = startDate !== "" || endDate !== "";
+  const hasSearchFilter = searchQuery.trim() !== "";
+
+  let monthlyTableTitle = "Monthly Rewards Summary";
+  let totalTableTitle = "Total Rewards";
+
+  if (hasDateFilter) {
+    monthlyTableTitle = "Monthly Rewards (For Selected Period)";
+    totalTableTitle = "Total Rewards (For Selected Period)";
+  } else if (hasSearchFilter) {
+    monthlyTableTitle = "Monthly Rewards (Filtered)";
+    totalTableTitle = "Total Rewards (Filtered)";
+  }
 
   return (
     <>
@@ -152,8 +156,8 @@ function DashboardContent({ transactions }) {
           </div>
 
           <div className="dashboard-side-by-side">
-            <MonthlyRewardsTable monthlyRewards={monthlyRewards} />
-            <TotalRewardsTable totalRewards={totalRewards} />
+            <MonthlyRewardsTable monthlyRewards={monthlyRewards} title={monthlyTableTitle} />
+            <TotalRewardsTable totalRewards={totalRewards} title={totalTableTitle} />
           </div>
         </div>
       </Suspense>

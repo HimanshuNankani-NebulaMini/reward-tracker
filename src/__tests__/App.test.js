@@ -208,9 +208,9 @@ describe("App Component Integrations", () => {
     expect(screen.getByText("Mechanical Keyboard")).toBeInTheDocument();
     expect(screen.queryByText("Wireless Headphones")).not.toBeInTheDocument();
 
-    // Monthly summary should remain unfiltered by date range
-    expect(screen.getAllByTestId("monthly-row")).toHaveLength(12);
-    expect(screen.getAllByText("John Doe")[0]).toBeInTheDocument();
+    // Monthly summary should filter by date range
+    expect(screen.getAllByTestId("monthly-row")).toHaveLength(1);
+    expect(screen.queryByText("John Doe")).not.toBeInTheDocument();
     expect(screen.getAllByText("Customer 2")[0]).toBeInTheDocument();
 
     // 3. Test Product Search globally: search "wireless"
@@ -231,9 +231,9 @@ describe("App Component Integrations", () => {
     );
     expect(screen.getByText("Wireless Headphones")).toBeInTheDocument();
 
-    // Summaries remain unfiltered because 'wireless' is not a customer name
-    expect(screen.getAllByTestId("monthly-row")).toHaveLength(12);
-    expect(screen.getAllByTestId("total-row")).toHaveLength(12);
+    // Summaries should filter by product name matches
+    expect(screen.getAllByTestId("monthly-row")).toHaveLength(1);
+    expect(screen.getAllByTestId("total-row")).toHaveLength(1);
 
     // Clear filters using the Clear button
     const clearBtn = screen.getByTestId("clear-filters-btn");
@@ -333,11 +333,9 @@ describe("App Component Integrations", () => {
     expect(screen.getByTestId("empty-cell")).toHaveTextContent(
       "No transactions found.",
     );
-    // Summaries should NOT show empty states because date range filters do not filter rewards summaries
-    expect(
-      screen.queryByText("No rewards aggregated yet."),
-    ).not.toBeInTheDocument();
-    expect(screen.queryByText("No rewards computed.")).not.toBeInTheDocument();
+    // Summaries should show empty states because date range filters now filter rewards summaries
+    expect(screen.getByText("No rewards aggregated yet.")).toBeInTheDocument();
+    expect(screen.getByText("No rewards computed.")).toBeInTheDocument();
   });
 
   test("filters transactions by product name, transaction ID, and customer ID (multi-column search)", async () => {

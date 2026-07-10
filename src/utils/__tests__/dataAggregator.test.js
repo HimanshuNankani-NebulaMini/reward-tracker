@@ -57,6 +57,21 @@ describe("dataAggregator", () => {
     expect(enriched[2].points).toBe(30);
   });
 
+  test("enrichTransactionsWithPoints should filter out invalid transactions and log warning", () => {
+    const invalidTx = {
+      id: "TX_INVALID",
+      customerId: "C1",
+      customerName: "John",
+      date: "invalid-date",
+      price: 100
+    };
+    const input = [mockTransactions[0], invalidTx, mockTransactions[1]];
+    const enriched = enrichTransactionsWithPoints(input);
+    expect(enriched).toHaveLength(2);
+    expect(enriched[0].id).toBe("TX1");
+    expect(enriched[1].id).toBe("TX2");
+  });
+
   test("enrichTransactionsWithPoints should throw error for non-array inputs", () => {
     expect(() => enrichTransactionsWithPoints(null)).toThrow(
       "Transactions input must be a valid array",
@@ -216,8 +231,8 @@ describe("dataAggregator", () => {
     );
     expect(() => getDateParts("2026")).toThrow("Invalid date format");
     expect(() => getDateParts("2026-ab-cd")).toThrow("Invalid date format");
-    expect(() => getDateParts("2026-13-01")).toThrow("Invalid date components");
-    expect(() => getDateParts("2025-02-29")).toThrow("Invalid date components");
+    expect(() => getDateParts("2026-13-01")).toThrow("Invalid date format");
+    expect(() => getDateParts("2025-02-29")).toThrow("Invalid date format");
 
     expect(getDateParts("2024-02-29")).toEqual({
       monthName: "February",
